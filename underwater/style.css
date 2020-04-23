@@ -1,9 +1,9 @@
 body{
-  position: sticky;
-  overflow: hidden;
+  position: sticky; /*Fixes an issue for iOS where the body is offset down by ~100px*/
+  overflow: hidden; 
   box-sizing: border-box;
   margin: 0;
-  bottom: 0;
+  bottom: 0; /*Fixes an issue for iOS where the body is offset down by ~100px*/
 }
 
 h1{
@@ -19,6 +19,7 @@ h2{
   color: rgb(255, 255, 255);
   font-size: 1.5em;
   font-family: 'Alien', sans-serif;
+  font-style: italic;
 }
 
 p{
@@ -33,7 +34,7 @@ em{
 
 main{
   width: 100%;
-  background: rgb(255, 255, 255) fixed;
+  background-image: linear-gradient(rgb(0, 0, 25), rgb(0, 30, 5));
   font-family: Verdana, sans-serif;
 }
 
@@ -58,6 +59,10 @@ section{
 
 ul{
   list-style: none;
+}
+
+ul li a{
+  text-decoration: inherit;
 }
 
 a{
@@ -87,12 +92,18 @@ a:hover .tooltip{
 #content{
   z-index: 2;
   overflow-y: scroll;
+  scrollbar-width: none; /*Hides scrollbar for Firefox*/
+  -ms-overflow-style: none; /*Hides scrollbar for Microsoft Browsers*/
   position: relative;
   width: 70vw;
   height: 85vh;
   left: 15%;
   right: 15%;
   background-image: linear-gradient(rgb(0, 0, 65), rgb(0, 60, 10));
+}
+
+#content::-webkit-scrollbar{
+  display: none; /*Hides scrollbar for Webkit Browsers*/
 }
 
 #content section img{
@@ -104,7 +115,7 @@ footer{
   overflow: hidden;
   width: 100vw;
   height: 5rem;
-  background-color: rgb(0, 140, 40);
+  background-color: rgb(0, 90, 20);
   color: rgb(255, 255, 255);
   text-align: center;
 }
@@ -122,5 +133,5 @@ footer{
 
 #footer-right p, #footer-left p{
   font-size: 1em;
-  font-weight: bold;
+  font-family: 'Alien';
 }
