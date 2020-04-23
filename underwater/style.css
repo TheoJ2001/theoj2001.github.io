@@ -1,6 +1,6 @@
 body{
   position: sticky; /*Fixes an issue for iOS where the body is offset down by ~100px*/
-  overflow: hidden; 
+  overflow: hidden;
   box-sizing: border-box;
   margin: 0;
   bottom: 0; /*Fixes an issue for iOS where the body is offset down by ~100px*/
@@ -92,7 +92,7 @@ a:hover .tooltip{
 #content{
   z-index: 2;
   overflow-y: scroll;
-  scrollbar-width: none; /*Hides scrollbar for Firefox*/
+  scrollbar-width: none; /*Hides scrollbar for Firefox, only supported on Firefox 64+*/
   -ms-overflow-style: none; /*Hides scrollbar for Microsoft Browsers*/
   position: relative;
   width: 70vw;
