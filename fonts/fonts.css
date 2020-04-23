@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Alien';
+    src: url("AlienLeague.otf") format("otf"),
+         url("AlienLeague.ttf") format("ttf"),
+         url("AlienLeague.woff") format("woff"),
+         url("AlienLeague.woff2") format("woff2");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Alien';
+    src: url("AlienLeagueBold.otf") format("otf"),
+         url("AlienLeagueBold.ttf") format("ttf"),
+         url("AlienLeagueBold.woff") format("woff"),
+         url("AlienLeagueBold.woff2") format("woff2");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Alien';
+    src: url("AlienLeagueItalic.otf") format("otf"),
+         url("AlienLeagueItalic.ttf") format("ttf"),
+         url("AlienLeagueItalic.woff") format("woff"),
+         url("AlienLeagueItalic.woff2") format("woff2");
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Alien';
+    src: url("AlienLeagueBoldItalic.otf") format("otf"),
+         url("AlienLeagueBoldItalic.ttf") format("ttf"),
+         url("AlienLeagueBoldItalic.woff") format("woff"),
+         url("AlienLeagueBoldItalic.woff2") format("woff2");
+    font-style: italic;
+    font-weight: bold;
+}

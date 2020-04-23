@@ -1,0 +1,124 @@
+body{
+  overflow: hidden;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+h1{
+  padding: 1.7rem;
+  color: rgb(255, 255, 255);
+  font-size: 1.7em;
+  font-family: 'Alien', sans-serif;
+  font-weight: bold;
+}
+
+h2{
+  margin-left: 2rem;
+  color: rgb(255, 255, 255);
+  font-size: 1.5em;
+  font-family: 'Alien', sans-serif;
+}
+
+p{
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-size: 1.2em;
+}
+
+em{
+  font-weight: bold;
+}
+
+main{
+  width: 100%;
+  background: rgb(255, 255, 255) fixed;
+  font-family: Verdana, sans-serif;
+}
+
+header{
+  z-index: 10;
+  box-sizing: border-box;
+  position: sticky;
+  width: 100vw;
+  height: 5rem;
+  background-color: rgb(0, 0, 145);
+  text-align: center;
+}
+
+article{
+  align-items: center;
+  color: rgb(255, 255, 255);
+}
+
+section{
+  margin: 1rem;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  color: rgb(255, 255, 255);
+  font-family: Verdana, sans-serif;
+}
+
+a:hover{
+  color: rgb(0, 105, 35);
+}
+
+.tooltip{
+  visibility: hidden;
+  padding: 0.1rem;
+  border-radius: 0.75rem;
+  background-color: rgb(0, 105, 35);
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  font-family: 'Alien';
+  font-style: italic;
+}
+
+a:hover .tooltip{
+  visibility: visible;
+}
+
+#content{
+  z-index: 2;
+  overflow-y: scroll;
+  position: relative;
+  width: 70vw;
+  height: 85vh;
+  left: 15%;
+  right: 15%;
+  background-image: linear-gradient(rgb(0, 0, 65), rgb(0, 60, 10));
+}
+
+#content section img{
+  width: 100%;
+}
+
+footer{
+  display: flex;
+  overflow: hidden;
+  width: 100vw;
+  height: 5rem;
+  background-color: rgb(0, 140, 40);
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+#footer-left{
+  flex: 1;
+  width: 50vw;
+  margin: 0em;
+}
+
+#footer-right{
+  width: 50vw;
+  margin: 0em;
+}
+
+#footer-right p, #footer-left p{
+  font-size: 1em;
+  font-weight: bold;
+}
