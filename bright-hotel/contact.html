@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="styles/navbar.css">
+        <link rel="stylesheet" href="styles/slideshow.css">
+        <link rel="stylesheet" href="styles/fonts.css">
+        <link rel="icon" href="icons/hotel-icon.svg">
+        <script src="scripts/jquery.min.js"></script>
+        <script src="https://kit.fontawesome.com/a78780ee1e.js" crossorigin="anonymous"></script>
+        <title>Bright Hotel: Kontakta</title>
+    </head>
+    <body>
+        <header id="page-header">
+            <h1>Bright<i>Hotel</i></h1>
+        </header>
+        <nav>
+            <a href="index.html" class="nav-item">Start</a>
+            <a href="bookings.html" class="nav-item">Boka</a>
+            <a href="find.html" class="nav-item">Hitta</a>
+            <a href="activities.html" class="nav-item">Aktiviteter</a>
+            <a href="restaurant.html" class="nav-item">Restaurang</a>
+            <a id="active" class="nav-item">Kontakta</a>
+        </nav>
+        <main>
+            <article>
+                <form action="mailto:dummymail.fortesting.website@gmail.com?subject=Bright Hotel Kontakt" method="get" enctype="text/plain" onsubmit="location.href='index.html;'">
+                    <h2>Kontakta Oss</h2>
+                    <div>
+                      <label for="name"><h3>Namn</h3></label>
+                        <input type="text" name="name" id="name" required>
+                      
+                    </div>
+                    <div>
+                        <label for="email"><h3>Mejladress</h3></label>
+                        <input type="text" name="email" id="email" required>
+                    </div>
+                    <div>
+                      <label><h3>Meddelande</h3></label>
+                      <br />
+                      <textarea name="comments" rows="12" cols="35" required></textarea>
+                    </div>
+                    <div>
+                      <input type="submit" name="submit" value="Skicka">
+                      <input type="reset" name="reset" value="Rensa">
+                    </div>
+                  </form>
+                  
+            </article>
+        </main>
+        <footer>
+            <section>
+                <p>Storgatan 1, 1233 445 Storstad</p>
+            </section>
+            <section>
+                <p>Tel: 123-456 78 90</p>
+            </section>
+            <section>
+                <a href="https://www.facebook.com/" target="_balnk"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://www.twitter.com/" target="_balnk"><i class="fab fa-twitter-square"></i></a>
+                <a href="mailto:dummymail.fortesting.website@gmail.com?subject=Bright Hotel Kontakt" target="_balnk"><i class="fas fa-envelope"></i></i></a>
+            </section>
+        </footer>
+        <script type="text/javascript" src="scripts/navbar.js"></script>
+        <script type="text/javascript" src="scripts/slideshow.js"></script>
+    </body>
+</html>

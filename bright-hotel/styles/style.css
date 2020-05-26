@@ -1,0 +1,335 @@
+*, *::before, *::after {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  background: -webkit-gradient(linear, left top, right top, from(#FF7800), to(#03C2D4));
+  background: linear-gradient(90deg, #FF7800, #03C2D4);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-x: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 100vw;
+}
+
+#page-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-self: center;
+  height: 240px;
+}
+
+#page-header h1 {
+  z-index: 10;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-self: center;
+  padding-top: 1rem;
+  margin: 0 auto;
+  -webkit-transform: translateY(30%);
+          transform: translateY(30%);
+  font-family: 'Jolly Night';
+  font-size: 400%;
+  font-weight: bold;
+  color: #03C2D4;
+  text-align: center;
+}
+
+#page-header h1 i {
+  padding-top: 0;
+  margin-top: -1vh;
+  font-size: 150%;
+  color: #FF7800;
+}
+
+main {
+  width: 75vw;
+  min-width: 490px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 3px 6px 9px rgba(0, 0, 0, 0.3);
+          box-shadow: 3px 6px 9px rgba(0, 0, 0, 0.3);
+}
+
+main header {
+  height: 5rem;
+  padding: 5%;
+  margin-bottom: 4em;
+  text-align: left;
+}
+
+main header h2 {
+  font-family: 'Jolly Night';
+  font-size: 3em;
+}
+
+main header h3 {
+  font-family: 'Jolly Night';
+  font-size: 2em;
+  font-style: italic;
+}
+
+main article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+main article section {
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main article section h2 {
+  padding-left: 1em;
+  padding-top: 1em;
+  font-family: 'Jolly Night';
+  font-size: 3em;
+}
+
+main article section h3 {
+  padding-left: 2em;
+  font-family: 'Jolly Night';
+  font-size: 2em;
+  font-style: italic;
+}
+
+main article section p {
+  padding: 1em;
+  font-family: "News Gothic";
+  text-align: left;
+}
+
+main article form {
+  font-family: "Jolly Night";
+  text-align: center;
+  margin-top: -5%;
+  padding: 5%;
+}
+
+main article form h2 {
+  margin: 0.5em;
+  font-size: 3em;
+  text-align: center;
+}
+
+main article form label:not(.input-img) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main article form label:not(.input-img) h3 {
+  margin-bottom: 0.2em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-top: 0.2em;
+  border: 0;
+  border-radius: 12px;
+  font-size: 3em;
+  font-style: italic;
+  font-weight: initial;
+  text-align: left;
+  color: #FFFFFF;
+  background: -webkit-gradient(linear, left top, right top, from(#FF7800), to(#03C2D4));
+  background: linear-gradient(90deg, #FF7800, #03C2D4);
+}
+
+main article form label img {
+  width: 50%;
+}
+
+main article form input {
+  margin-bottom: 2em;
+  max-width: 100%;
+}
+
+main article form input[type="date"], main article form input[type="time"], main article form input[type="number"], main article form input[type="text"] {
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  border: solid 2px #018995;
+  border-radius: 6px;
+  width: 60%;
+  max-width: 600px;
+  -webkit-box-shadow: 6px 12px 18px rgba(0, 0, 0, 0.6);
+          box-shadow: 6px 12px 18px rgba(0, 0, 0, 0.6);
+  font-family: "Jolly Night";
+  font-size: 1.4em;
+  text-align: center;
+}
+
+main article form input[type="text"] {
+  font-family: "News Gothic";
+}
+
+main article form input[type="radio"] {
+  position: absolute;
+  display: none;
+}
+
+main article form input[type="radio"] + .input-img > img {
+  cursor: pointer;
+}
+
+main article form input[type="radio"]:checked + .input-img > img {
+  border: solid 3px #FF7800;
+  border-radius: 12px;
+  -webkit-box-shadow: 6px 12px 18px rgba(0, 0, 0, 0.6);
+          box-shadow: 6px 12px 18px rgba(0, 0, 0, 0.6);
+}
+
+main article form input[type="submit"], main article form input[type="reset"] {
+  margin-top: 0.5em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-top: 0.2em;
+  border: 0;
+  border-radius: 12px;
+  font-family: 'Jolly Night';
+  font-size: 4em;
+  font-style: italic;
+  color: #FFFFFF;
+  background: -webkit-gradient(linear, left top, right top, from(#FF7800), to(#03C2D4));
+  background: linear-gradient(90deg, #FF7800, #03C2D4);
+  -webkit-box-shadow: 6px 12px 18px rgba(0, 0, 0, 0.6);
+          box-shadow: 6px 12px 18px rgba(0, 0, 0, 0.6);
+}
+
+main article form textarea {
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  border: solid 2px #018995;
+  border-radius: 6px;
+  -webkit-box-shadow: 6px 12px 18px rgba(0, 0, 0, 0.6);
+          box-shadow: 6px 12px 18px rgba(0, 0, 0, 0.6);
+  font-family: "News Gothic";
+  font-size: 1.4em;
+  text-align: center;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 75vw;
+  min-width: 490px;
+  font-family: 'News Gothic';
+  font-size: 1.4em;
+  color: #FFFFFF;
+  background: -webkit-gradient(linear, left top, right top, from(#AC5100), to(#016069));
+  background: linear-gradient(90deg, #AC5100, #016069);
+  -webkit-box-shadow: 3px 6px 9px rgba(0, 0, 0, 0.3);
+          box-shadow: 3px 6px 9px rgba(0, 0, 0, 0.3);
+}
+
+footer section {
+  padding: 2rem;
+}
+
+footer section a {
+  color: #03C2D4;
+}
+
+.responsive-img {
+  width: 80%;
+}
+
+@media only screen and (min-width: 1070px) {
+  main {
+    width: 100vw;
+  }
+  main article {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100vw;
+    text-align: center;
+  }
+  main article section {
+    text-align: left;
+    max-width: 40%;
+  }
+  main article form label img {
+    width: 25%;
+  }
+  footer {
+    width: 100vw;
+  }
+  .responsive-img {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */

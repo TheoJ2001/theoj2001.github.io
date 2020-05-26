@@ -1,0 +1,24 @@
+$meadia-query-bp: 1070px;
+
+$primary-brighter:#018995 ;
+$primary-bright:#2DDCEC;
+$primary: #03C2D4;
+$primary-dark: #016069;
+$primary-darker: #002C30;
+
+$accent-brighter:#F57400;
+$accent-bright:#FF912E;
+$accent:#FF7800;
+$accent-dark:#AC5100;
+$accent-darker:#4F2500;
+
+$link-size: 1.2rem;
+$title-size-big: 8rem;
+$title-size: 6rem;
+
+$gradient: linear-gradient(90deg, $accent, $primary);
+$gradient-dark: linear-gradient(90deg, $accent-dark, $primary-dark);
+$gradient-darker: linear-gradient(90deg, $accent-darker, $primary-darker);
+$transparent-gray: rgba(0, 0, 0, 0.3);
+$transparent-black: rgba(0, 0, 0, 0.6);
+$transparent-white: rgba(255, 255, 255, 0.15);

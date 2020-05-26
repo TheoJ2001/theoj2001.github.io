@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="styles/navbar.css">
+        <link rel="stylesheet" href="styles/slideshow.css">
+        <link rel="stylesheet" href="styles/fonts.css">
+        <link rel="icon" href="icons/hotel-icon.svg">
+        <script src="scripts/jquery.min.js"></script>
+        <script src="https://kit.fontawesome.com/a78780ee1e.js" crossorigin="anonymous"></script>
+        <title>Bright Hotel: Restaurang</title>
+    </head>
+    <body>
+        <header id="page-header">
+            <h1>Bright<i>Hotel</i></h1>
+        </header>
+        <nav>
+            <a href="index.html" class="nav-item">Start</a>
+            <a href="bookings.html" class="nav-item">Boka</a>
+            <a href="find.html" class="nav-item">Hitta</a>
+            <a href="activities.html" class="nav-item">Aktiviteter</a>
+            <a id="active" class="nav-item">Restaurang</a>
+            <a href="contact.html" class="nav-item">Kontakta</a>
+        </nav>
+        <main>
+            <div id="slideshow">
+                <div id="slide-container">
+                    <ul class="slides">
+                        <li class="slide-img"><img src="imgs/restraunt/food-and-wine.jpg" alt="Mat och Vin"></li>
+                        <li class="slide-img"><img src="imgs/restraunt/menu.jpg" alt="Menyn"></li>
+                        <li class="slide-img"><img src="imgs/restraunt/sallad.jpg" alt="Sallad"></li>
+                        <li class="slide-img"><img src="imgs/restraunt/scallops.jpg" alt="Musslor"></li>
+                    </ul>
+                </div>
+            </div>
+            <article>
+                <section>
+                    <h2>Lorem ipsum</h2>
+                    <h3>Lorem ipsum dolor sit amet</h3>
+                    <img class="responsive-img" src="imgs/slideshow-homepage/bright-hotel-exterior.jpg" alt="Bright Hotel Entré">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque suscipit vulputate urna, a efficitur dui elementum a. Sed venenatis euismod mi, quis tincidunt ante pulvinar at. Curabitur porttitor finibus ligula, vitae fermentum dui cursus quis. Sed pharetra congue augue eu molestie. Praesent ac quam nulla. Donec non turpis eget neque fringilla ultricies eu vitae leo. Nam et ornare tortor.</p>
+                    <p>Donec molestie pulvinar vestibulum. Vivamus fringilla orci ut scelerisque ornare. Curabitur placerat eu enim sit amet rhoncus. Pellentesque ornare nibh sit amet odio imperdiet, ut sollicitudin diam faucibus. Proin sit amet semper leo. Mauris eu libero vel libero mattis faucibus. Morbi ultricies massa ornare aliquam fringilla. Sed fermentum pharetra ante et hendrerit. Nam vitae massa at elit placerat semper. Nam vehicula massa ut nibh feugiat suscipit. In magna erat, vestibulum quis erat sed, volutpat aliquam mi. Aliquam a laoreet elit. Cras eget cursus elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p>Sed metus lacus, mattis et purus sit amet, volutpat malesuada risus. Duis id neque congue, volutpat tellus ut, laoreet massa. Donec in egestas dui. Duis vulputate, magna eu semper viverra, justo nunc pellentesque ante, in lacinia eros magna in lectus. Pellentesque nisi ligula, tincidunt euismod enim at, congue scelerisque neque. Vivamus consequat elit faucibus, fringilla magna eget, sollicitudin elit. Sed et tincidunt nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; In ultrices luctus mi, sit amet pharetra massa aliquet id. Integer est turpis, consequat vel placerat in, auctor ac dui. Phasellus fermentum augue vitae sem suscipit eleifend. Nam ultricies tincidunt mauris, ac lacinia odio fermentum sed. Ut dapibus aliquet tortor ac maximus. Aliquam lorem nibh, venenatis at ligula ut, imperdiet placerat mauris.</p>
+                    <img class="responsive-img" src="imgs/slideshow-homepage/bright-hotel-reception.jpg" alt="Bright Hotel Reception">
+                    <p>Donec ac quam rutrum, condimentum quam quis, consectetur massa. Pellentesque sed purus fermentum, ultricies neque et, sagittis massa. Maecenas maximus facilisis vestibulum. Nunc fringilla sagittis ullamcorper. Nunc interdum, risus at pretium semper, ex velit hendrerit est, a blandit neque lacus quis lorem. Praesent nec pulvinar risus. Aenean sed odio id nibh convallis congue. Aenean aliquet enim at lobortis accumsan. Praesent dictum malesuada velit, eu laoreet diam sodales sed. Quisque non nibh fermentum, malesuada sem vitae, facilisis nisi. Vivamus at metus vel lacus porttitor mollis sed a felis. Maecenas eget quam ultricies, viverra orci et, rhoncus est.</p>
+                    <p>Maecenas pretium congue leo vitae ullamcorper. Maecenas eu enim ipsum. Sed mauris nunc, commodo vel purus nec, gravida fringilla enim. In hac habitasse platea dictumst. Nullam ultrices justo id lacus lobortis, et ullamcorper ante pretium. Cras in venenatis ex. Suspendisse sapien neque, convallis quis fermentum sed, tristique sit amet nisl. Mauris condimentum ultricies efficitur. Vestibulum tincidunt tortor a nulla auctor mollis. Donec nunc ante, fermentum a pretium pharetra, vestibulum id tortor.</p>
+                    <p>Donec blandit elit est, vel accumsan tortor aliquam eu. Proin et arcu nec arcu sollicitudin tristique. Duis at imperdiet mauris. Morbi at maximus nisl. Vivamus in lacus dolor. Curabitur mattis tortor nisl, in vestibulum elit vulputate nec. Nullam accumsan viverra gravida. Curabitur consequat ut dui vel efficitur. Curabitur feugiat tincidunt metus, sed egestas nunc efficitur eget.</p>
+                </section>
+                <form>
+                    <h2>Boka Bord</h2>
+                    <label for="arrival"><h3>Tid</h3></label>
+                    <input id="arrival" type="time" value="16:00" min="16:00" max="21:00" required>
+                    <br>
+                    <label for="num-of-adults"><h3>Antal Vuxna</h3></label>
+                    <input id="num-of-adults" type="number" min="1" max="24" required>
+                    <br>
+                    <label for="num-of-children"><h3>Antal Barn</h3></label>
+                    <input id="num-of-children" type="number" min="1" max="24">
+                    <br>
+                    <input type="submit" value="Boka">
+                </form>
+            </article>
+        </main>
+        <footer>
+            <section>
+                <p>Storgatan 1, 1233 445 Storstad</p>
+            </section>
+            <section>
+                <p>Tel: 123-456 78 90</p>
+            </section>
+            <section>
+                <p>Mail: dummymail.fortesting.website@gmail.com</p>
+            </section>
+            <section>
+                <a href="https://www.facebook.com/" target="_balnk"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://www.twitter.com/" target="_balnk"><i class="fab fa-twitter-square"></i></a>
+                <a href="mailto:dummymail.fortesting.website@gmail.com?subject=Bright Hotel Kontakt" target="_balnk"><i class="fas fa-envelope"></i></i></a>
+            </section>
+        </footer>
+        </footer>
+        <script type="text/javascript" src="scripts/navbar.js"></script>
+        <script type="text/javascript" src="scripts/slideshow.js"></script>
+    </body>
+</html>

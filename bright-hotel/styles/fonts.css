@@ -1,0 +1,66 @@
+@font-face{
+    font-family: 'Jolly Night';
+    src: url('fonts/night.eot') format('eot'),
+         url('fonts/night.otf') format('otf'),
+         url('fonts/night.svg') format('svg'),
+         url('fonts/night.ttf') format('ttf'),
+         url('fonts/night.woff') format('woff'),
+         url('fonts/night.woff2') format('woff2');
+    font-style: normal;
+}
+  
+  @font-face{
+    font-family: 'Jolly Night';
+    src: url('fonts/jolly.eot') format('eot'),
+         url('fonts/jolly.otf') format('otf'),
+         url('fonts/jolly.svg') format('svg'),
+         url('fonts/jolly.ttf') format('ttf'),
+         url('fonts/jolly.woff') format('woff'),
+         url('fonts/jolly.woff2') format('woff2');
+    font-style: italic;
+}
+
+@font-face{
+     font-family: 'News Gothic';
+     src: url('fonts/news-gothic.eot') format('eot'),
+          url('fonts/news-gothic.otf') format('otf'),
+          url('fonts/news-gothic.svg') format('svg'),
+          url('fonts/news-gothic.ttf') format('ttf'),
+          url('fonts/news-gothic.woff') format('woff'),
+          url('fonts/news-gothic.woff2') format('woff2');
+     font-style: normal;
+}
+
+@font-face{
+     font-family: 'News Gothic';
+     src: url('fonts/news-gothic-italic.eot') format('eot'),
+          url('fonts/news-gothic-italic.otf') format('otf'),
+          url('fonts/news-gothic-italic.svg') format('svg'),
+          url('fonts/news-gothic-italic.ttf') format('ttf'),
+          url('fonts/news-gothic-italic.woff') format('woff'),
+          url('fonts/news-gothic-italic.woff2') format('woff2');
+     font-style: italic;
+}
+
+@font-face{
+     font-family: 'News Gothic';
+     src: url('fonts/news-gothic-oblique.eot') format('eot'),
+          url('fonts/news-gothic-oblique.otf') format('otf'),
+          url('fonts/news-gothic-oblique.svg') format('svg'),
+          url('fonts/news-gothic-oblique.ttf') format('ttf'),
+          url('fonts/news-gothic-oblique.woff') format('woff'),
+          url('fonts/news-gothic-oblique.woff2') format('woff2');
+     font-style: oblique;
+}
+
+@font-face{
+     font-family: 'News Gothic';
+     src: url('fonts/news-gothic-bold.eot') format('eot'),
+          url('fonts/news-gothic-bold.otf') format('otf'),
+          url('fonts/news-gothic-bold.svg') format('svg'),
+          url('fonts/news-gothic-bold.ttf') format('ttf'),
+          url('fonts/news-gothic-bold.woff') format('woff'),
+          url('fonts/news-gothic-bold.woff2') format('woff2');
+     font-style: normal;
+     font-weight: bold;
+}

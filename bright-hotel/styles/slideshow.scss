@@ -1,0 +1,54 @@
+@import "variables.scss";
+$slide-size : 50vw;
+$slide-max-min : 600px;
+
+@mixin slide-width($size, $max){
+    width: #{$size};
+    max-width: #{$max};
+}
+
+@mixin slide-height($size, $max){
+    height: #{$size};
+    max-height: #{$max};
+}
+
+#slideshow{
+    overflow: hidden;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background: $gradient-dark;
+    box-shadow: 3px 6px 9px $transparent-gray;
+    @include slide-height($slide-size, $slide-max-min);
+    min-height: $slide-max-min;
+    #slide-container{
+        @include slide-width($slide-size, $slide-max-min);
+        min-width: $slide-max-min;
+        @include slide-height($slide-size, $slide-max-min);
+        min-height: $slide-max-min;
+        .slides{
+            margin-top: 0;
+            @include slide-width($slide-size, $slide-max-min);
+            @include slide-height($slide-size, $slide-max-min);
+            .slide-img{
+                position: relative;
+                max-height: $slide-max-min;
+                max-width: $slide-max-min;
+                img{
+                    @include slide-width($slide-size, $slide-max-min);
+                    min-width: $slide-max-min;
+                    @include slide-height($slide-size, $slide-max-min);
+                    min-height: $slide-max-min;
+                    object-fit: cover;
+                    object-position: 50% 0;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: $meadia-query-bp){
+    #slideshow{
+        display: flex;
+    }
+}
