@@ -1,0 +1,32 @@
+h1, h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p{
+    font-family: Verdana, Arial, sans-serif;
+}
+
+a{
+    color: darkgreen;
+    text-decoration: none;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(179, 231, 94);
+
+    header{
+        align-self: start;
+    }
+
+    main{
+        display: flex;
+        flex-direction: row;
+    }
+}
