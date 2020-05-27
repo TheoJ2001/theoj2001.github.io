@@ -56,7 +56,6 @@ nav .nav-item:hover, nav .nav-item#active {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    max-height: auto;
   }
   nav .nav-item {
     width: auto;
