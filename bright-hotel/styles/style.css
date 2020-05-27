@@ -89,7 +89,7 @@ main header {
   height: 5rem;
   padding: 5%;
   margin-bottom: 4em;
-  text-align: left;
+  text-align: center;
 }
 
 main header h2 {
@@ -123,14 +123,15 @@ main article section {
 }
 
 main article section h2 {
-  padding-left: 1em;
-  padding-top: 1em;
+  padding: 1em;
+  padding-bottom: 0em;
   font-family: 'Jolly Night';
   font-size: 3em;
 }
 
 main article section h3 {
   padding-left: 2em;
+  padding-right: 2em;
   font-family: 'Jolly Night';
   font-size: 2em;
   font-style: italic;

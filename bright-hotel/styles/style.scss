@@ -64,7 +64,7 @@ main{
         height: 5rem;
         padding: 5%;
         margin-bottom: 4em;
-        text-align: left;
+        text-align: center;
         h2{
             font-family: 'Jolly Night';
             font-size: 3em;
@@ -85,14 +85,15 @@ main{
             text-align: center;
             flex-direction: column;
             h2{
-                padding-left: 1em;
-                padding-top: 1em;
+                padding: 1em;
+                padding-bottom: 0em;
                 font-family: 'Jolly Night';
                 font-size: 3em;
             }
 
             h3{
                 padding-left: 2em;
+                padding-right: 2em;
                 font-family: 'Jolly Night';
                 font-size: 2em;
                 font-style: italic;
